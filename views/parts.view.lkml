@@ -1,5 +1,5 @@
 view: parts {
-  sql_table_name: `data-demo-2021.autorepair.parts` ;;
+  sql_table_name: `autorepair.parts` ;;
 
   dimension: component_id {
     primary_key: yes
