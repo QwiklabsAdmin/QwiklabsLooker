@@ -64,7 +64,7 @@
     name: Model
     model: future-auto-retailing
     explore: warranty_data
-    type: future_auto_retailing::sankey-marketplace
+    type: QwiklabsLooker::sankey-marketplace
     fields: [warranty_data.model, warranty_data.make, vehicle]
     sorts: [vehicle desc]
     limit: 500
