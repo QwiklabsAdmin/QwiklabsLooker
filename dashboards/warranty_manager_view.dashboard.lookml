@@ -5,7 +5,7 @@
   elements:
   - title: Make
     name: Make
-    model: future_auto_retailing
+    model: future-auto-retailing
     explore: warranty_data
     type: looker_column
     fields: [vehicles, warranty_data.make]
@@ -62,7 +62,7 @@
     height: 6
   - title: Model
     name: Model
-    model: future_auto_retailing
+    model: future-auto-retailing
     explore: warranty_data
     type: future_auto_retailing::sankey-marketplace
     fields: [warranty_data.model, warranty_data.make, vehicle]
@@ -310,7 +310,7 @@
     height: 7
   - title: City
     name: City
-    model: future_auto_retailing
+    model: future-auto-retailing
     explore: warranty_data
     type: looker_bar
     fields: [warranty_data.city, vehicles]
@@ -390,7 +390,7 @@
     height: 7
   - title: Predicted Total Repair Cost
     name: Predicted Total Repair Cost
-    model: future_auto_retailing
+    model: future-auto-retailing
     explore: warranty_cost
     type: single_value
     fields: [warranty_cost.repair_cost]
@@ -428,7 +428,7 @@
     height: 2
   - title: Predicted Repair Effort
     name: Predicted Repair Effort
-    model: future_auto_retailing
+    model: future-auto-retailing
     explore: warranty_cost
     type: single_value
     fields: [warranty_cost.manpower]
@@ -457,7 +457,7 @@
     height: 2
   - title: Region
     name: Region
-    model: future_auto_retailing
+    model: future-auto-retailing
     explore: warranty_data
     type: looker_map
     fields: [vehicles, warranty_data.state]
