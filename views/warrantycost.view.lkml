@@ -1,5 +1,5 @@
 view: warranty_cost {
-  sql_table_name: `data-demo-2021.autorepair.warrantyview` ;;
+  sql_table_name: `autorepair.warrantyview` ;;
 
   dimension: vehicle_type {
     primary_key: yes
