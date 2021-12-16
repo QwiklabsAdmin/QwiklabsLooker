@@ -1,5 +1,5 @@
 view: autotelemetry {
-  sql_table_name: `autorepair.autotelemetry_aggr`
+  sql_table_name: `autorepair.autotelemetry`
     ;;
 
   dimension: trip_id{
