@@ -117,7 +117,7 @@
     height: 4
   - title: Body Type
     name: Body Type
-    model: future_auto_retailing
+    model: future-auto-retailing
     explore: dealer_data
     type: single_value
     fields: [dealer_data.body_type]
@@ -173,7 +173,7 @@
     height: 4
   - title: City
     name: City
-    model: future_auto_retailing
+    model: future-auto-retailing
     explore: dealer_data
     type: single_value
     fields: [dealer_data.city]
@@ -229,7 +229,7 @@
     height: 4
   - title: State
     name: State
-    model: future_auto_retailing
+    model: future-auto-retailing
     explore: dealer_data
     type: single_value
     fields: [dealer_data.state]
@@ -285,7 +285,7 @@
     height: 4
   - title: Year
     name: Year
-    model: future_auto_retailing
+    model: future-auto-retailing
     explore: dealer_data
     type: single_value
     fields: [dealer_data.year]
@@ -341,7 +341,7 @@
     height: 4
   - title: Average Speed
     name: Average Speed
-    model: future_auto_retailing
+    model: future-auto-retailing
     explore: autotelemetry
     type: future_auto_retailing::radial_gauge
     fields: [autotelemetry.avg_speed]
@@ -475,7 +475,7 @@
     height: 4
   - title: Average Engine RPM
     name: Average Engine RPM
-    model: future_auto_retailing
+    model: future-auto-retailing
     explore: autotelemetry
     type: single_value
     fields: [autotelemetry.avg_rpm]
@@ -615,7 +615,7 @@
     height: 4
   - title: Average Miles per Gallon
     name: Average Miles per Gallon
-    model: future_auto_retailing
+    model: future-auto-retailing
     explore: autotelemetry
     type: single_value
     fields: [autotelemetry.avg_kpl]
