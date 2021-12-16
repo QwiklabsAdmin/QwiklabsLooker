@@ -1,5 +1,5 @@
 view: error_prediction_results {
-  sql_table_name: `data-demo-2021.autorepair.predict_results`;;
+  sql_table_name: `autorepair.predict_results`;;
 
   dimension: vin {
     type: string
