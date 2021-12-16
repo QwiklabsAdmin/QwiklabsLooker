@@ -343,7 +343,7 @@
     name: Average Speed
     model: future-auto-retailing
     explore: autotelemetry
-    type: future_auto_retailing::radial_gauge
+    type: QwiklabsLooker::radial_gauge
     fields: [autotelemetry.avg_speed]
     limit: 500
     query_timezone: UTC
