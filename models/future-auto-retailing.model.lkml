@@ -2,6 +2,7 @@ connection: "bigquery_public_data_looker"
 
 # include all the views
 include: "/views/**/*.view"
+include: "/dashboards/**/*.dashboard.lookml"
 
 datagroup: future_auto_retailing_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
@@ -30,7 +31,18 @@ explore: dealer_data {
   }
 }
 
+explore: autotelemetryaggr {
+  join: dealer_data {
+    type: inner
+    sql_on: ${dealer_data.vin} = ${autotelemetryaggr.vin} ;;
+    relationship: one_to_many
+  }
+}
+
 explore: warranty_data {}
+
+explore: warranty_cost {}
+
 explore: error_codes {
   join: components {
     type: left_outer
@@ -64,3 +76,4 @@ explore: error_prediction_results {
     relationship: one_to_one
   }
 }
+
