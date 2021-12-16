@@ -1,5 +1,5 @@
 view: warrantyview {
-  sql_table_name: `data-demo-2021.autorepair.warrantyview`
+  sql_table_name: `autorepair.warrantyview`
     ;;
 
   dimension: city {
